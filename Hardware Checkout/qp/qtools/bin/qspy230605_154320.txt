@@ -1,0 +1,120 @@
+QSPY 7.2.1 Copyright (c) 2005-2023 Quantum Leaps
+Documentation: https://www.state-machine.com/qtools/qspy.html
+Current timestamp: 230605_154320
+           Trg-RST  QP-Ver=700,Build=220727_132433
+           Obj-Dict 0x24003EA0->QS_RX
+           Sig-Dict 00000004,Obj=0x00000000->COMMON::TMC429_TRANSACTION_COMPLETE_SIG
+           Sig-Dict 00000005,Obj=0x00000000->COMMON::TMC429_CONFIG_MOTOR_SIG
+           Sig-Dict 00000006,Obj=0x00000000->COMMON::TMC429_SET_MOTOR_POSITION_SIG
+           Sig-Dict 00000007,Obj=0x00000000->COMMON::TMC429_SET_MOTOR_VELOCITY_SIG
+   <COMMS> ERROR    Bad checksum in Rec=QS_SIG_DICT(?),Seq=7
+   <COMMS> ERROR    Discontinuity Seq=7->2
+           Trg-RST  QP-Ver=700,Build=220727_132433
+           Obj-Dict 0x24003EA0->QS_RX
+           Sig-Dict 00000004,Obj=0x00000000->COMMON::TMC429_TRANSACTION_COMPLETE_SIG
+           Sig-Dict 00000005,Obj=0x00000000->COMMON::TMC429_CONFIG_MOTOR_SIG
+           Sig-Dict 00000006,Obj=0x00000000->COMMON::TMC429_SET_MOTOR_POSITION_SIG
+           Sig-Dict 00000007,Obj=0x00000000->COMMON::TMC429_SET_MOTOR_VELOCITY_SIG
+           Sig-Dict 00000008,Obj=0x00000000->COMMON::TMC429_RAW_COMMAND_SIG
+           Sig-Dict 00000018,Obj=0x00000000->I2C4_WRITE_TRANSACTION_SIG
+           Sig-Dict 00000019,Obj=0x00000000->I2C4_READ_TRANSACTION_SIG
+   <COMMS> ERROR    Bad checksum in Rec=QS_SIG_DICT(?),Seq=10
+   <COMMS> ERROR    Discontinuity Seq=10->2
+           Trg-RST  QP-Ver=700,Build=220727_132433
+           Obj-Dict 0x24003EA0->QS_RX
+           Sig-Dict 00000004,Obj=0x00000000->COMMON::TMC429_TRANSACTION_COMPLETE_SIG
+           Sig-Dict 00000005,Obj=0x00000000->COMMON::TMC429_CONFIG_MOTOR_SIG
+           Sig-Dict 00000006,Obj=0x00000000->COMMON::TMC429_SET_MOTOR_POSITION_SIG
+           Sig-Dict 00000007,Obj=0x00000000->COMMON::TMC429_SET_MOTOR_VELOCITY_SIG
+           Sig-Dict 00000008,Obj=0x00000000->COMMON::TMC429_RAW_COMMAND_SIG
+           Sig-Dict 00000018,Obj=0x00000000->I2C4_WRITE_TRANSACTION_SIG
+           Sig-Dict 00000019,Obj=0x00000000->I2C4_READ_TRANSACTION_SIG
+           Sig-Dict 00000020,Obj=0x00000000->SPI2_TRANSACTION_SIG
+           Sig-Dict 00000016,Obj=0x00000000->COMMON::ADC_DATA_SIG
+           Sig-Dict 00000021,Obj=0x00000000->SET_BLDC_SPEED_PERCENTAGE_SIG
+           Sig-Dict 00000022,Obj=0x00000000->AD7172_2_TRANSACTION_COMPLETE_SIG
+   <COMMS> ERROR    Bad checksum in Rec=QS_SIG_DICT(?),Seq=14
+   <COMMS> ERROR    Discontinuity Seq=14->2
+           Trg-RST  QP-Ver=700,Build=220727_132433
+           Obj-Dict 0x24003EA0->QS_RX
+           Sig-Dict 00000004,Obj=0x00000000->COMMON::TMC429_TRANSACTION_COMPLETE_SIG
+           Sig-Dict 00000005,Obj=0x00000000->COMMON::TMC429_CONFIG_MOTOR_SIG
+           Sig-Dict 00000006,Obj=0x00000000->COMMON::TMC429_SET_MOTOR_POSITION_SIG
+           Sig-Dict 00000007,Obj=0x00000000->COMMON::TMC429_SET_MOTOR_VELOCITY_SIG
+           Sig-Dict 00000008,Obj=0x00000000->COMMON::TMC429_RAW_COMMAND_SIG
+           Sig-Dict 00000018,Obj=0x00000000->I2C4_WRITE_TRANSACTION_SIG
+           Sig-Dict 00000019,Obj=0x00000000->I2C4_READ_TRANSACTION_SIG
+           Sig-Dict 00000020,Obj=0x00000000->SPI2_TRANSACTION_SIG
+           Sig-Dict 00000016,Obj=0x00000000->COMMON::ADC_DATA_SIG
+           Sig-Dict 00000021,Obj=0x00000000->SET_BLDC_SPEED_PERCENTAGE_SIG
+           Sig-Dict 00000022,Obj=0x00000000->AD7172_2_TRANSACTION_COMPLETE_SIG
+           Sig-Dict 00000023,Obj=0x00000000->SP160_REGULATOR_TRANSACTION_COMPLETE_SIG
+           Sig-Dict 00000024,Obj=0x00000000->SP160_PUMP_TRANSACTION_COMPLETE_SIG
+           Sig-Dict 00000025,Obj=0x00000000->HWHSC_SPI_TRANSACTION_COMPLETE_SIG
+           Sig-Dict 00000026,Obj=0x00000000->HWHSC_SENSOR_DATA_SIG
+           Sig-Dict 00000028,Obj=0x00000000->SET_DIGITAL_OUTPUT_SIG
+           Sig-Dict 00000030,Obj=0x00000000->IOEXP2_SET_OUTPUT_SIG
+           Usr-Dict 00000100->COMMON::DisplayText
+           Usr-Dict 00000101->COMMON::SPIMgrMsg
+           Usr-Dict 00000102->COMMON::I2CMgrMsg
+           Usr-Dict 00000103->COMMON::TMC429MgrMsg
+           Usr-Dict 00000104->COMMON::GT911MgrMsg
+           Usr-Dict 00000105->COMMON::LVGLMgrMsg
+           Usr-Dict 00000106->COMMON::DigitalInputMsg
+           Usr-Dict 00000107->COMMON::DigitalOutputMsg
+           Usr-Dict 00000108->COMMON::ADCMsg
+           Usr-Dict 00000109->COMMON::SP160MgrMsg
+           Usr-Dict 00000110->COMMON::HWHSC_SPIMgrMsg
+           Usr-Dict 00000111->COMMON::TTPVentusMgrMsg
+           Obj-Dict 0x24001C94->COMMON::AO_Blinky
+           Obj-Dict 0x240014EC->AO_SPI2Mgr
+           Obj-Dict 0x24000290->AO_I2CAMgr
+           Obj-Dict 0x24001628->AO_TMC429Mgr
+           Obj-Dict 0x2400014C->AO_DigInMgr
+           Obj-Dict 0x2400021C->AO_DigOutMgr
+           Obj-Dict 0x24001C50->AO_AnlgMgr
+           Obj-Dict 0x24000114->AO_BLDCMgr
+           Obj-Dict 0x240000F0->AO_AD7172_2Mgr
+           Obj-Dict 0x240003A0->AO_IOExpMgr
+           Obj-Dict 0x24001454->AO_SP160RegulatorMgr
+           Obj-Dict 0x240014A0->AO_SP160PumpMgr
+           Obj-Dict 0x24000240->AO_HWHSC_SPIMgr
+           Obj-Dict 0x24001758->AO_TTPVentusMgr
+           Obj-Dict 0x24000368->AO_IOExpMgr2
+           Obj-Dict 0x2400178C->COMMON::l_BSP
+0000000049 COMMON::DisplayText **************************
+0000000049 COMMON::DisplayText CoreH743I Sparx Controller
+0000000049 COMMON::DisplayText **************************
+0000000049 COMMON::DisplayText Reset Reasons:
+0000000049 COMMON::DisplayText POR/PDR Reset
+0000000049 COMMON::DisplayText NRST Pin Reset
+0000000049 COMMON::DisplayText BOR Reset
+0000000049 COMMON::DisplayText D2 Domain Power Reset
+0000000049 COMMON::DisplayText D1 Domain Power Reset
+0000000049 COMMON::DisplayText CPU Reset
+0000000049 COMMON::DisplayText ----------
+           Obj-Dict 0x24003DE8->EvtPool1
+           Obj-Dict 0x24001C94->Blinky::inst
+           Obj-Dict 0x24001CB8->Blinky::inst.m_timeEvt
+           Fun-Dict 0x0801D7DD->Blinky::off
+           Fun-Dict 0x0801D849->Blinky::on
+           Fun-Dict 0x0801F241->running
+           Fun-Dict 0x0801F29D->idle
+           Fun-Dict 0x0801F449->busy
+           Fun-Dict 0x0801F4F5->startup
+           Fun-Dict 0x0801F571->check_id
+           Fun-Dict 0x0801F6F1->send_init_config
+           Fun-Dict 0x0801F625->send_driver_chain_table
+           Fun-Dict 0x0801F7BD->homing
+           Fun-Dict 0x0801F819->send_homing_command
+           Fun-Dict 0x0801F8E1->homing_switch_wait
+           Fun-Dict 0x0801FA3D->send_homing_zero
+           Fun-Dict 0x0801FB0D->command_wait
+           Fun-Dict 0x0801FBA5->config_wait
+           Fun-Dict 0x0801FC69->query_motor_feedback
+           Fun-Dict 0x0801FD59->fault
+           QF_RUN
+0000000070 COMMON::DisplayText TMC429Mgr faulted.
+0000000070 COMMON::DisplayText AD7172_2Mgr faulted.
+0000000129 COMMON::DisplayText SP160Mgr faulted.
+0000000130 COMMON::DisplayText SP160Mgr faulted.

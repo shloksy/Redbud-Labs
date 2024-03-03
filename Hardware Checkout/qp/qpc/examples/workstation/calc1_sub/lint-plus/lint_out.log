@@ -1,0 +1,40 @@
+
+--- Module:   C:\qp-dev\qpc\examples\workstation\calc1_sub\calc1_sub.c (C)
+C:\qp-dev\qpc\examples\workstation\calc1_sub\calc1_sub.c  63  info 2701: variable 'Calc_inst' declared outside of header 
+    is not defined in the same source file
+C:\qp-dev\qpc\examples\workstation\calc1_sub\calc1_sub.c  264  note 904: return statement before end of function 
+    'Calc_eval' [MISRA 2012 Rule 15.5, advisory]
+C:\qp-dev\qpc\examples\workstation\calc1_sub\calc1_sub.c  291  note 904: return statement before end of function 
+    'Calc_eval' [MISRA 2012 Rule 15.5, advisory]
+C:\qp-dev\qpc\examples\workstation\calc1_sub\calc1_sub.c  314  note 904: return statement before end of function 
+    'Calc_eval' [MISRA 2012 Rule 15.5, advisory]
+C:\qp-dev\qpc\examples\workstation\calc1_sub\calc1_sub.c  330  note 904: return statement before end of function 
+    'Calc_eval' [MISRA 2012 Rule 15.5, advisory]
+C:\qp-dev\qpc\examples\workstation\calc1_sub\calc1_sub.c  452  info 764: switch with no cases 
+    [MISRA 2012 Rule 16.1, required], [MISRA 2012 Rule 16.6, required]
+C:\qp-dev\qpc\examples\workstation\calc1_sub\calc1_sub.c  452  note 9081: too few independent cases for switch 
+    [MISRA 2012 Rule 16.1, required], [MISRA 2012 Rule 16.6, required]
+C:\qp-dev\qpc\examples\workstation\calc1_sub\calc1_sub.c  592  info 764: switch with no cases 
+    [MISRA 2012 Rule 16.1, required], [MISRA 2012 Rule 16.6, required]
+C:\qp-dev\qpc\examples\workstation\calc1_sub\calc1_sub.c  592  note 9081: too few independent cases for switch 
+    [MISRA 2012 Rule 16.1, required], [MISRA 2012 Rule 16.6, required]
+C:\qp-dev\qpc\examples\workstation\calc1_sub\calc1_sub.c  937  info 764: switch with no cases 
+    [MISRA 2012 Rule 16.1, required], [MISRA 2012 Rule 16.6, required]
+C:\qp-dev\qpc\examples\workstation\calc1_sub\calc1_sub.c  937  note 9081: too few independent cases for switch 
+    [MISRA 2012 Rule 16.1, required], [MISRA 2012 Rule 16.6, required]
+--- Module Wrap-up
+C:\qp-dev\qpc\examples\workstation\calc1_sub\calc1_sub.c  450  info 818: parameter 'me' of function 'Calc_error(Calc 
+    *const, const QEvt *const)' could be pointer to const [MISRA 2012 Rule 8.13, advisory]
+C:\qp-dev\qpc\examples\workstation\calc1_sub\calc1_sub.c  590  info 818: parameter 'me' of function 'Calc_result(Calc 
+    *const, const QEvt *const)' could be pointer to const [MISRA 2012 Rule 8.13, advisory]
+C:\qp-dev\qpc\examples\workstation\calc1_sub\calc1_sub.c  935  info 818: parameter 'me' of function 'Calc_final(Calc 
+    *const, const QEvt *const)' could be pointer to const [MISRA 2012 Rule 8.13, advisory]
+C:\qp-dev\qpc\examples\workstation\calc1_sub\calc1_sub.c  1170  info 818: parameter 'me' of function 
+    'Calc_operand_frac(Calc *const, const QEvt *const)' could be pointer to const [MISRA 2012 Rule 8.13, advisory]
+Count   Type    Number  Text
+
+3       info    764     switch with no cases
+4       info    818     parameter __symbol__ of function __symbol__ could be pointer to const
+4       note    904     return statement before end of function __symbol__
+1       info    2701    __variable/function__ __symbol__ declared outside of header is not defined in the same source file
+3       note    9081    too few independent cases for switch

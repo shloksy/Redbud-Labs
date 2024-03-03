@@ -1,0 +1,17 @@
+
+--- Module:   C:\qp-dev\qpcpp\src\qxk\qxk.cpp (C++)
+--- Module Wrap-up
+
+--- Module:   C:\qp-dev\qpcpp\src\qxk\qxk_mutex.cpp (C++)
+--- Module Wrap-up
+
+--- Module:   C:\qp-dev\qpcpp\src\qxk\qxk_sema.cpp (C++)
+C:\qp-dev\qpcpp\src\qxk\qxk_sema.cpp  229  info 8502: function 'signal' matches the name of a standard library function 
+    [BARR-C:2018 Rule 6.1b]
+--- Module Wrap-up
+
+--- Module:   C:\qp-dev\qpcpp\src\qxk\qxk_xthr.cpp (C++)
+--- Module Wrap-up
+Count   Type    Number  Text
+
+1       info    8502    __string__

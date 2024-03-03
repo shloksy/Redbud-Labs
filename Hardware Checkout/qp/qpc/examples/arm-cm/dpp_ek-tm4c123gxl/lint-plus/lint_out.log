@@ -1,0 +1,18 @@
+
+--- Module:   C:\qp-dev\qpc\examples\arm-cm\dpp_ek-tm4c123gxl\table.c (C)
+C:\qp-dev\qpc\examples\arm-cm\dpp_ek-tm4c123gxl\table.c  47  note 9026: function-like macro, 'RIGHT', defined 
+    [MISRA 2012 Directive 4.9, advisory]
+C:\qp-dev\qpc\examples\arm-cm\dpp_ek-tm4c123gxl\table.c  48  note 9026: function-like macro, 'LEFT', defined 
+    [MISRA 2012 Directive 4.9, advisory]
+C:\qp-dev\qpc\examples\arm-cm\dpp_ek-tm4c123gxl\table.c  38  info 2701: variable 'Table_inst' declared outside of header 
+    is not defined in the same source file
+C:\qp-dev\qpc\examples\arm-cm\dpp_ek-tm4c123gxl\table.c  124  warning 527: statement is unreachable due to unconditional 
+    transfer of control by 'non-returning call expression' statement [MISRA 2012 Rule 2.1, required]
+C:\qp-dev\qpc\examples\arm-cm\dpp_ek-tm4c123gxl\table.c  232  warning 527: statement is unreachable due to unconditional 
+    transfer of control by 'non-returning call expression' statement [MISRA 2012 Rule 2.1, required]
+--- Module Wrap-up
+Count   Type    Number  Text
+
+2       warning 527     statement is unreachable due to unconditional transfer of control by '__string__' statement
+1       info    2701    __variable/function__ __symbol__ declared outside of header is not defined in the same source file
+2       note    9026    function-like macro, '__macro__', defined
